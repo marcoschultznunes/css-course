@@ -1,0 +1,22 @@
+In this tutorial we'll learn to use the Bootstrap framework alongside just HTML, CSS and 
+browser JS.
+
+Link to Bootstrap documentation:
+    https://getbootstrap.com/docs/
+
+
+=====================================================================
+
+https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp
+
+Why to use Bootstrap:
+
+- Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+- Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+- Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+- Browser compatibility: Bootstrap 4 is compatible with all modern browsers (Chrome, Firefox, Internet Explorer 10+, Edge, Safari, and Opera)
+
+======================================================================
+
+We will be using the following extension for VScode snippets:
+    Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
