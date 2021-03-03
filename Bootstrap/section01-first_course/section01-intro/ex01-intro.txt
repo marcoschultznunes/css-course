@@ -1,7 +1,12 @@
 In this tutorial we'll learn to use the Bootstrap framework alongside just HTML, CSS and 
 browser JS.
 
-Link to Bootstrap documentation:
+It will be based on the w3schools' Bootstrap tutorial and the official Bootstrap documentation 
+
+=> Link to w3schools Bootstrap tutorial:
+    https://www.w3schools.com/bootstrap4/default.asp
+
+=> Link to Bootstrap documentation:
     https://getbootstrap.com/docs/
 
 

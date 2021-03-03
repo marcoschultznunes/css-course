@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Bootstrap Rows & Columns</title>
+</head>
+<body>
+
+<!-- 
+    .col-{size}-{span} => defines a column. Ex: .col-lg-4. sizes: sm, md, lg, xl
+
+    => The size affects how small the viewport must be in order for the columns to stack.
+-->
+
+    <div class="row">
+        <div class="col bg-dark">
+            Header
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg bg-primary">
+            Sidebar
+        </div>
+        <div class="col-lg-8 bg-white">
+            Content<br/>
+            Content<br/>
+            Content<br/>
+        </div>
+        <div class="col-lg bg-success">
+            Right sidebar
+        </div>
+    </div>
+
+<!--  
+    .row-cols-{number of cols} => defines a max number of columns before stacking them all
+
+    NOTE: Also needs the .row class to work
+    NOTE 2: If we define a size for the columns, .row-cols will only affect when the viewport
+    is small enough to stack them.
+-->
+
+    <div class="row row-cols-3">
+        <div class="col">
+            1/3
+        </div>
+        <div class="col">
+            2/3
+        </div>
+        <div class="col">
+            3/3
+        </div>
+        <div class="col">
+            4/3
+        </div>
+        <div class="col">
+            5/3
+        </div>
+        <div class="col">
+            6/3
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 
+    .no-gutters => removes extra space on rows
+-->
